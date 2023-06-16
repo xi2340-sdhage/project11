@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example
+  namespace: test
+spec:
+  containers:
+  - name: new-assigning
+    image: nginx
+    ports:
+    - containerPort: 80
