@@ -13,8 +13,8 @@ git add .
 
 git commit -m "pushing code"
 
-git remote add bitbucket https://bitbucket.org/sujeetdhage71711/target11.git
+git remote add bitbucket https://bitbucket.org/sujeetdhage7171/target11.git
 
-git push -u bitbucket main
+git push -u origin addtag-pushnew
 
 ls -lrt
