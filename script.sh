@@ -15,6 +15,6 @@ git commit -m "pushing code"
 
 git remote add bitbucket https://bitbucket.org/sujeetdhage7171/target11.git
 
-git push -u origin addtag-pushnew
+git push -u origin
 
 ls -lrt
