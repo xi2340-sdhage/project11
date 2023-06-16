@@ -15,7 +15,9 @@ git commit -m "pushing code"
 
 git remote remove origin
 
-git remote add origin https://bitbucket.org/yblsujeet/ybl/target11.git
+
+git remote add origin https://bitbucket.org/yblsujeet/target11.git
+#git remote add origin https://bitbucket.org/yblsujeet/ybl/target11.git
 #git remote add origin https://bitbucket.org/sujeetdhage7171/target11.git
 
 git push -u origin main
