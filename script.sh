@@ -13,7 +13,10 @@ git add .
 
 git commit -m "pushing code"
 
-git remote add bitbucket https://bitbucket.org/yblsujeet/target11.git
+git remote remove origin
+
+#git remote add bitbucket https://bitbucket.org/yblsujeet/target11.git
+git remote add origin https://bitbucket.org/sujeetdhage7171/target11.git
 
 git push -u origin main
 
