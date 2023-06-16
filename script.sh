@@ -7,7 +7,7 @@ cd project11
 
 git config --global user.email "sujit.dhage@xebia.com"
 
-git config --global user.name "xi2340-sdhage"
+git config --global user.name "sujeetdhage7171"
 
 git add .
 
