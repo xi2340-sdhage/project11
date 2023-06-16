@@ -5,9 +5,9 @@ git clone https://github.com/xi2340-sdhage/project11.git
 
 cd project11
 
-git config --global user.email "dhagesujit11feb@gmail.com"
+git config --global user.email "sujit.dhage@xebia.com"
 
-git config --global user.name "yblsujeet"
+git config --global user.name "xi2340-sdhage"
 
 git add .
 
