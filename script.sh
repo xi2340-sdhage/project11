@@ -11,7 +11,7 @@ git remote add bitbucket https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155
 #git remote set-url origin https://xi2340-sdhage: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@github.com/xi2340-sdhage/project11.git
 
 # Fetch changes from GitHub and Bitbucket
-git fetch origin
+#git fetch origin
 git fetch bitbucket
 
 # Loop through all branches in the GitHub repository
@@ -20,7 +20,7 @@ for branch in $(git branch -r | grep -v '\->'); do
   git checkout "${branch#origin/}"
   
   # Merge the changes from GitHub
-  git merge origin/"${branch#origin/}"
+  #git merge origin/"${branch#origin/}"
   
   #git push -u origin "${branch#origin/}"
   
