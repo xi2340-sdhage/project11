@@ -3,7 +3,7 @@ echo "Hello"
 
 git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
-cd project11
+#cd project11
 
 git remote remove origin
 
