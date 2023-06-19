@@ -6,7 +6,7 @@ git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
 cd project11
 
-#bitbucket_changes=$(git fetch --update-shallow https://bitbucket.org/yblsujeet/target17.git | grep "nothing to fetch")
+bitbucket_changes=$(git fetch --update-shallow https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git | grep "nothing to fetch")
 
 #git config --global user.email "dhagesujit11feb@gmail.com"
 
