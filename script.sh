@@ -21,5 +21,6 @@ git merge bitbucket/main
 
 # Push the changes to Bitbucket
 git push -u bitbucket main
+git push -u origin main
 
 ls -lrt
