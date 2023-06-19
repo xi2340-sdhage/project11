@@ -5,7 +5,7 @@ github_repo="my-github-repo"
 bitbucket_repo="my-bitbucket-repo"
 
 # Fetch the latest changes from the GitHub repository.
-git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
+git clone https://github.com/xi2340-sdhage/project11.git
 
 # Check if there are any changes in the Bitbucket repository.
 #bitbucket_changes=$(git fetch --update-shallow https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git | grep "nothing to fetch")
