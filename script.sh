@@ -1,24 +1,11 @@
 #!/bin/bash
 echo "Hello"
 
-git clone https://github.com/xi2340-sdhage/project11.git
+git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
 cd project11
 
-#git config --global user.email "dhagesujit11feb@gmail.com"
-
-#git config --global user.name "sujeet1111"
-
-#git add .
-
-#git commit -m "pushing code"
-
-git remote remove origin
-
 git remote add origin https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
-#git remote add origin https://bitbucket.org/yblsujeet/target11.git
-#git remote add origin https://bitbucket.org/yblsujeet/ybl/target11.git
-#git remote add origin https://bitbucket.org/sujeetdhage7171/target11.git
 
 git push -u origin main
 
