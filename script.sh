@@ -10,8 +10,8 @@ cd project11
 git remote add bitbucket https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
 
 # Fetch changes from GitHub and Bitbucket
-git pull origin --all
-git pull bitbucket --all
+git pull --all
+#git pull bitbucket --all
 
 # Merge the changes from GitHub
 #git merge origin/main
