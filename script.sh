@@ -8,6 +8,7 @@ cd project11
 
 # Add the Bitbucket remote
 git remote add bitbucket https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
+git remote set-url origin https://xi2340-sdhage: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@github.com/xi2340-sdhage/project11.git
 
 # Fetch changes from GitHub and Bitbucket
 git fetch origin
