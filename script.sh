@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hello"
 
-git clone https://github.com/xi2340-sdhage/project11.git
+git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
 cd project11
 
