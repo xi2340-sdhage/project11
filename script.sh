@@ -6,14 +6,20 @@ git clone https://github.com/xi2340-sdhage/project11.git
 
 cd project11
 
-git remote remove origin
+# Add the Bitbucket remote
+git remote add bitbucket https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
 
-git remote add origin https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
-
+# Fetch changes from GitHub and Bitbucket
 git fetch origin
+git fetch bitbucket
 
+# Merge the changes from GitHub
 git merge origin/main
 
-git push -u origin main
+# Merge the changes from Bitbucket
+git merge bitbucket/main
+
+# Push the changes to Bitbucket
+git push -u bitbucket main
 
 ls -lrt
