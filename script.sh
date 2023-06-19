@@ -23,6 +23,6 @@ git pull origin main
 #git merge bitbucket/main
 
 # Push the changes to Bitbucket
-git push --all -u origin
+git push --all -u origin --force
 
 ls -lrt
