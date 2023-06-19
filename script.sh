@@ -13,7 +13,7 @@ git remote add origin https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bi
 
 
 # Fetch changes from GitHub and Bitbucket
-git pull --all
+git pull origin main
 #git pull bitbucket --all
 
 # Merge the changes from GitHub
@@ -23,6 +23,6 @@ git pull --all
 #git merge bitbucket/main
 
 # Push the changes to Bitbucket
-git push --all -u bitbucket
+git push --all -u origin
 
 ls -lrt
