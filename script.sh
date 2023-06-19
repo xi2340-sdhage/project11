@@ -1,6 +1,6 @@
 #!/bin/bash
-
-echo "Hello"
+#Hello from Github
+#echo "Hello"
 
 git clone https://github.com/xi2340-sdhage/project11.git
 
