@@ -1,8 +1,12 @@
 #!/bin/bash
 echo "Hello"
-git clone https://github.com/xi2340-sdhage/project11.git
+
+#git clone https://github.com/xi2340-sdhage/project11.git
+git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
 cd project11
+
+#bitbucket_changes=$(git fetch --update-shallow https://bitbucket.org/yblsujeet/target17.git | grep "nothing to fetch")
 
 #git config --global user.email "dhagesujit11feb@gmail.com"
 
