@@ -10,6 +10,8 @@ git fetch github
 
 git merge github/main
 
+git pull bitbucket main
+
 git push -u bitbucket main
 
 ls -lrt
