@@ -1,17 +1,17 @@
 #!/bin/bash
-
 echo "Hello"
+git clone https://github.com/xi2340-sdhage/project11.git
 
-git remote add github https://github.com/xi2340-sdhage/project11.git
+cd project11
 
-git remote add bitbucket https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
+#git config --global user.email "dhagesujit11feb@gmail.com"
 
-git fetch github
+#git config --global user.name "sujeet1111"
 
-git merge github/main
+#git add .
 
-git pull bitbucket main
+#git commit -m "pushing code"
 
-git push -u bitbucket main
+git remote remove origin
 
-ls -lrt
+git remote add origin https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
