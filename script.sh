@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hello"
 
-git fetch https://github.com/xi2340-sdhage/project11.git
+git clone https://github.com/xi2340-sdhage/project11.git
 
 #cd project11
 
