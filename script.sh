@@ -1,20 +1,19 @@
 #!/bin/bash
-echo "Hello"
-git clone https://github.com/xi2340-sdhage/project11.git
 
-cd project11
+# Get the names of the GitHub and Bitbucket repositories.
+github_repo="my-github-repo"
+bitbucket_repo="my-bitbucket-repo"
 
-#git config --global user.email "dhagesujit11feb@gmail.com"
+# Fetch the latest changes from the GitHub repository.
+git fetch --update-shallow https://github.com/xi2340-sdhage/project11.git
 
-#git config --global user.name "sujeet1111"
+# Check if there are any changes in the Bitbucket repository.
+bitbucket_changes=$(git fetch --update-shallow https://bitbucket.org/yblsujeet/target17.git | grep "nothing to fetch")
 
-#git add .
+# If there are changes in the Bitbucket repository, then we need to merge them into our local repository.
+if [ "$bitbucket_changes" != "" ]; then
+  git merge bitbucket/main
+fi
 
-#git commit -m "pushing code"
-
-git remote remove origin
-
-git remote add origin https://sujeet1111:ATBBASXkpkt5XLJN7TE9C4W8tsUwCA9C2155@bitbucket.org/yblsujeet/target17.git
-
-git push -u origin main
-ls -lrt
+# Push the changes from our local repository to the Bitbucket repository.
+git push origin main
