@@ -27,10 +27,10 @@ for branch in $(git branch -r | grep -v '\->'); do
   # Merge the changes from Bitbucket
   git merge bitbucket/"${branch#origin/}"
 
-  git tag v1
+  git tag v2
   
   # Push the changes to Bitbucket
-  git push -u bitbucket "${branch#origin/}" v1
+  git push -u bitbucket "${branch#origin/}" v2
 done
 
 ls -lrt
